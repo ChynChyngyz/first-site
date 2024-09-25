@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #210431;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+header {
+    background-color: #210431;
+}
+
+.limit {
+    max-width: 1100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.limit-main {
+    max-width: 1100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.a1 {
+    background-color: #210431;
+    margin: 2% 1%;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    justify-content: space-between;
+}
+
+.header-nav {
+    flex: 1;
+}
+
+header .header-nav ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 12px;
+    gap: 20%;
+}
+
+.header-log {
+    flex: 1;
+    text-align: center;
+}
+
+.header-search {
+    display: flex;
+    position: relative;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-search input {
+    width: 100%;
+    height: 2rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: #1d112a;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.header-search i {
+    position: relative;
+    right: 1%;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.header-search input::placeholder {
+    color: #aaa;
+}
+
+.holo {
+    font-size: 1.25rem;
+    color: #3DDEED;
+}
+
+.goze {
+    font-size: 1.25rem;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.background-line {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.home__data {
+    position: relative;
+}
+
+.home__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home__title {
+    font-size: 14px;
+    width: 60%;
+}
+
+.home__title2 {
+    font-size: 2.875rem;
+    width: 45%;
+}
+
+.home__title-description2 {
+    color: white;
+    font-size: 0.5rem;
+    width: 30%;
+}
+
+.home__title_second {
+    color: white;
+    margin-top: -25%;
+    margin-left: 10%;
+    font-size: 1.75rem;
+    width: 50%;
+}
+
+.button--flex-button1 {
+    font-size: 1rem;
+    width: 30%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: #3DDEED;
+    padding: 0.625rem;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.button--flex-button2 {
+    font-size: 1rem;
+    width: 20%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.02);
+    padding: 0.625rem;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.image {
+    height: 400px:
+    width: 400px
+}
+
+.image-img {
+    flex: 1;
+    margin-left: 20px;
+    width: 100%;
+    height: 50%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 2%;
+    margin-top: 1%;
+}
+
+.social-icons img {
+    width: 3%;
+    height: auto;
+}
+
+.header-log {
+    flex: 4;
+}
+
+header-nav {
+    flex: 2;
+}
+
+header-search {
+    flex: 2;
+}
+
+.home-section {
+    margin-top: 0; /* Убедитесь, что у секции нет отступов сверху */
+}
+
+.home__container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -25%;
+}
+
+.image2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image2-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.home__data2 {
+    flex: 1;
+    padding-left: 0%;
+    margin-top: 25%;
+    margin-left: -10%;
+}
+
+.home__header2 {
+    width: 100%;
+}
+
+.features-container {
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.feature-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2%;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.625rem;
+    line-height: 1.5;
+}
+
+.star-img {
+    width: 1.5%;
+    height: auto;
+    margin-right: 2%;
+}
+
+.header-search i {
+    display: inline-block;
+    padding: 0.2rem;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
